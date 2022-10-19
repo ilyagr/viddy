@@ -597,7 +597,7 @@ func (v *Viddy) Run() error {
 
 	v.UpdateStatusView()
 
-	app.EnableMouse(true)
+	// app.EnableMouse(true)
 
 	v.app = app
 	v.arrange()
